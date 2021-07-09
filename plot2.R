@@ -7,11 +7,12 @@
 png("plot2.png")
 
 #creates plot
-plot(edc_df_2$d_time,
-     edc_df_2$Global_active_power,
+plot(edc_df$d_time,
+     edc_df$Global_active_power,
      type = "l",
      xlab = "",
      ylab = "Gloabl Active Power (kilowatts)")
 
 #closes png
 dev.off()
+ 
