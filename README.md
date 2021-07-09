@@ -9,14 +9,14 @@ A additional file - load.r has been added which is responsible for the following
 - adds date and time column
 
 plot1.R - Produces the required plot1 - histogram
-<li>![Histogram](plot1.png) 
+  ![Histogram](plot1.png) 
 
 plot2.R - Produces the required plot2 - line plot
-<li> ![Line Plot](plot2.png) 
+  ![Line Plot](plot2.png) 
 
   plot3.r - produces the required plot3 - line plot with 3 lines, colors and legend
-<li> ![Tripple Line Plot w/legend](plot3.png)
+  ![Tripple Line Plot w/legend](plot3.png)
   
   
 plot4.r - includes plots 2 and 3 as well as voltage and global reserve power.
-<li> ![quad chart](plot4.png)
+  ![quad chart](plot4.png)
