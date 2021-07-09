@@ -9,6 +9,7 @@ A additional file - load.r has been added which is responsible for the following
 - adds date and time column
 
 plot1.R - Produces the required plot1 - histogram
+![plot1.png](figure/plot1.png) 
 
 plot2.R - Produces the required plot2 - line plot
 
