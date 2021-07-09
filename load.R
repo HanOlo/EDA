@@ -13,13 +13,10 @@ edc_df <- read_delim("household_power_consumption.txt",
                      na = "?")  %>% 
   mutate(Date = dmy(Date)) %>% 
   filter(Date >= "2007-02-01",
-         Date <= "2007-02-02")
-
-#creates d_time which combines date and time
-edc_df_2 <- edc_df %>% 
+         Date <= "2007-02-02") %>% 
   mutate(d_time = ymd_hms(paste(Date, Time)))
+
 
 #verify that all data types are correct
 glimpse(edc_df)  
 
- 
