@@ -14,3 +14,4 @@ hist(edc_df$Global_active_power,
 
 #closes png
 dev.off()
+  
